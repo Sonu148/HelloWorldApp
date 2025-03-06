@@ -1,5 +1,5 @@
 <div>
   <h1>{{this.title}}</h1>
-  <img [src]="imgUrl" alt="image logo of the bridge labz">
+  <img (click)="onClick($event)" [src]="imgUrl" alt="image logo of the bridge labz">
 </div>
 <router-outlet></router-outlet>
